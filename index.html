@@ -1,0 +1,33 @@
+<!---------
+Esercizio HTML, CSS, JavaScript con Fetch e DOM:
+
+Obiettivo:
+
+Utilizzando JavaScript, recuperare i prodotti da un endpoint API e visualizzarli come card all'interno di una pagina HTML.
+
+TODO: Utilizzare l'endpoint API "https://fakestoreapi.com/products" per recuperare i dati dei prodotti.
+TODO: Creare una card per ogni prodotto recuperato e visualizzarli all'interno di un div con id "productContainer".
+TODO: Ogni card dovrebbe contenere le seguenti informazioni:
+Titolo del prodotto (elemento h2)
+Prezzo del prodotto (elemento p)
+Descrizione del prodotto (elemento p)
+Un bottone "Aggiungi al carrello" (elemento button)
+TODO: "Bonus" Al click del bottone "Aggiungi al carrello", salvare il prodotto corrispondente nel localStorage.
+TODO: "Bonus" Mostrare il titolo dell'ultimo prodotto aggiunto al carrello in un tag h3 con id "ultimoProdotto".
+--------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkpoint 2</title>
+  </head>
+  <body>
+    <section>
+      <div id="productContainer"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
