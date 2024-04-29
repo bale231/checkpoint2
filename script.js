@@ -1,4 +1,3 @@
-
 const containerProduct = document.getElementById('productContainer');
 
 async function fetchProduct() {
@@ -21,6 +20,7 @@ async function fetchProduct() {
         `;
 
         containerProduct.appendChild(card);
+        
         const btn = document.querySelector(`.btn-${product.id}`)
         btn.addEventListener('click', () => {
             localStorage.setItem('nameProduct', product.title);
